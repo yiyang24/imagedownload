@@ -9,7 +9,7 @@
 3. 在源代码部分找到shuziwenku开头的文件夹下的relic文件夹下的最后一个文件夹
 
 4. 点击图片放至最大，上下左右拖动图片，遍历图片的每个部分，该文件夹下会出现一个名为12的文件夹，打开后有0_0.jpg, 0_1.jpg等整张图片被分割成的“瓦片”（p1）
-https://github.com/yiyang24/imagedownload/blob/8d03e4bb88c44cec97463324a5c0fd1ed3ab8151/20250927083211_240_59.png
+   ![](https://github.com/yiyang24/imagedownload/blob/8d03e4bb88c44cec97463324a5c0fd1ed3ab8151/20250927083211_240_59.png)
 5. 右键0_0.jpg，复制链接地址，粘贴至python代码（p2）中的base_url部分
 https://github.com/yiyang24/imagedownload/blob/8d03e4bb88c44cec97463324a5c0fd1ed3ab8151/20250927082216_238_59.png
 6. matrix_size为瓦片矩阵的大小，即整张图片被分成了几乘几的瓦片矩阵，如果12文件夹下的最后一张图片是1_3.jpg，那么就是1+1=2列，3+1=4行的矩阵，在matrix_size填入(4, 2)
